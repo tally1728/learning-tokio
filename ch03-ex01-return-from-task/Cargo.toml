@@ -1,5 +1,5 @@
 [package]
-name = "ch02-01-my-redis"
+name = "ch03-ex01-return-from-task"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,4 +7,3 @@ edition = "2021"
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
-mini-redis = "0.4"
