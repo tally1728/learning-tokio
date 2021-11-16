@@ -23,7 +23,7 @@ async fn main() {
         // A new task is spawned for each inbound socket. The socket is
         // moved to the new task and processed there.
         tokio::spawn(async move {
-            process(socket, db).awai;
+            process(socket, db).await;
         });
     }
 }
